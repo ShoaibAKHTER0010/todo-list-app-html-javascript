@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 15px;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+
+.todo-container{
+    box-sizing: border-box;
+    border: 1px solid #3498db;
+    border-radius: 8px;
+    box-shadow: 3px 0 2px 0;
+    }
+#newTodo{
+    width: 90%;
+    height: 40px;
+    margin: 30px;
+    font-size: larger;
+    box-shadow: 3px 0 2px 0;
+    border-radius: 8px;
+}
+#addbtn{
+    width: 90%;
+    height: 40px;
+    margin: 30px;
+    font-size: larger;
+    background-color: #3498db;
+    box-shadow: 3px 0 2px 0;
+    border-radius: 8px;
+    color: white;
+}
+
+h1, h2{
+    text-align: center;
+}
+.filter{
+    text-align: center;
+}
+.btn{
+    height: 40px;
+    width: 300px;
+    background-color: #3498db;
+    color: white;
+    font-size: larger;
+    border-radius: 8px;
+    box-shadow: 3px 0 2px 0;
+    display:inline;
+    
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+#btn1{
+    cursor: pointer;
+    border: none;
+    margin-left: 600px;
+    color: blue;
+    font-size: larger;
+}
+#btn2{
+    cursor: pointer;
+    border: none;
+    color: red;
+    font-size: larger;
+}
